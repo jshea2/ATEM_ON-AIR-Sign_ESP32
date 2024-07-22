@@ -6,7 +6,7 @@ Trigger ON AIR Sign to turn on when ATEM is streaming and turn off when ATEM has
 https://github.com/user-attachments/assets/93a61eb2-cb9a-4f0a-9d0c-53f0e3ab7c55
 
 
-Hardware Requirements:
+## Hardware Requirements:
 - [ON AIR sign](https://www.amazon.com/Air-Light-Wall-Mountable-Desktop/dp/B096H44MTL/)
 - [ESP32](https://www.amazon.com/ESP-WROOM-32-Development-Microcontroller-Integrated-Compatible/dp/B08D5ZD528/)
 - [5V 1ch Relay](https://www.amazon.com/dp/B00LW15A4W?psc=1&ref=ppx_yo2ov_dt_b_product_details)
@@ -16,7 +16,7 @@ Hardware Requirements:
 - ATEM Switcher
 - Router
 
-Hardware Setup:
+## Hardware Setup:
 - ATEM must be connected to a router in the same IP range as the ESP32
 - Wiring Diagram:
 ![IMG_0825](https://github.com/user-attachments/assets/445e708b-613e-4e35-aa15-b1a5496f4aee)
@@ -30,7 +30,7 @@ Hardware Setup:
 -   Note: If you're flashing the ESP32 from your computer and trying to test this should only print the ATEM status, but not trigger the relay, because the rest is from a different power source then the relay won't trigger because it's not the same ground COM.
 
 
-Software Setup Requirements:
+## Software Setup Requirements:
 - Visual Studio Code
 - PlatformIO
   - Enable VSCode Extension
@@ -47,3 +47,6 @@ Software Setup Requirements:
     ```
 
 - Upload to ESP32
+
+## Credits:
+Based on ATEM libraries for Arduino by SKAARHOJ, available at Git repo: SKAARHOJ-Open-Engineering
