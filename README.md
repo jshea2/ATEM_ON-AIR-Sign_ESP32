@@ -18,6 +18,7 @@ Hardware Requirements:
 
 Hardware Setup:
 - ATEM must be connected to a router in the same IP range as the ESP32
+- Wiring Diagram:
 ![IMG_0825](https://github.com/user-attachments/assets/445e708b-613e-4e35-aa15-b1a5496f4aee)
 - ESP32 Pin 15 -> Relay DI
 - Relay Power In + - soldered to led strip
