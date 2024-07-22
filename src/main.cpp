@@ -3,7 +3,7 @@
 #include <ATEMmin.h>
 
 // WiFi credentials
-const char* ssid = "SSID";  // Replace with your SSID
+const char* ssid = "SSID";  // Replace with your SSID.
 const char* password = "password";  // Replace with your password
 
 // ATEM device IP address
